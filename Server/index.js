@@ -13,15 +13,13 @@ const TeleBot = require("telebot");
 //instantiate Telebot with our token got in the BotFather
 const bot = new TeleBot({
     // Live token 
-    token: "1415793420:AAGVN_VdRITGYXo7pfDanJ3pCYc-JQG1JGA",
-    //Test token
-    //token: "1519075419:AAFlb411E0iU9_xZqgJ6wEGyp4myvGib3B0",
+    token: "TOKEN",
     polling: true
 });
 
 //Firmware bot
 const adminBot = new TeleBot({
-    token: "1596683372:AAG4vqYlyu8pgyHsPHGitvj2PDrv2PJ5TJc",
+    token: "TOKEN",
     polling: true
 });
 
